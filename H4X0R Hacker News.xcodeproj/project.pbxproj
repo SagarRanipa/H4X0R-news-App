@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F822E98926C6D29B00764B60 /* H4X0R Hacker News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4X0R Hacker News.entitlements"; sourceTree = "<group>"; };
 		F8B89A8A2687B4CF00F35FAE /* H4X0R Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B89A8D2687B4CF00F35FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B89A8F2687B4CF00F35FAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		F8B89A8C2687B4CF00F35FAE /* H4X0R Hacker News */ = {
 			isa = PBXGroup;
 			children = (
+				F822E98926C6D29B00764B60 /* H4X0R Hacker News.entitlements */,
 				F8B89A8D2687B4CF00F35FAE /* AppDelegate.swift */,
 				F8B89A8F2687B4CF00F35FAE /* SceneDelegate.swift */,
 				F8B89AAA2687C73700F35FAE /* Views */,
@@ -318,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R Hacker News/H4X0R Hacker News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R Hacker News/Preview Content\"";
 				DEVELOPMENT_TEAM = T2KV542NYS;
@@ -329,6 +332,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sagarranipa.H4X0R-Hacker-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R Hacker News/H4X0R Hacker News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R Hacker News/Preview Content\"";
 				DEVELOPMENT_TEAM = T2KV542NYS;
@@ -350,6 +355,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sagarranipa.H4X0R-Hacker-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
